@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+
+{
+    float x =4, y = 5, sum = 0, b1 = 0, b2 = 0;
+    
+    b1 = (sqrt(y-x));
+    b2 = (x)/(x-y/x+pow(x,2)/4);
+    sum = b1 * b2;
+    cout << "\nРезультат = " << b1;
+    cout << "\nРезультат = " << b2;
+    cout << "\nРезультат = " << sum;
+
+    return 0;
+
+
+}

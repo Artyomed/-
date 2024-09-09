@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+
+{
+    float x, y, z;
+    cout << "\nВведите правую сторону треугольника "; cin >> x;
+    cout << "\nВведите левую сторону треугольника "; cin >> y;
+    cout << "\nВведите нижнию сторону треугольника "; cin >> z;
+    
+    if (x<y || y<z || z!=y)
+    cout << "\nТреугольник не построиться";
+    else 
+    cout << "\nТреугольник построиться";
+    return 0;
+
+
+}

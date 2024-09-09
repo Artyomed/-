@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+    float a,b,c,p,s;
+    cout<<"\na="; cin>>a;
+    cout<<"\nb="; cin>>b;
+    cout<<"\nc="; cin>>c;
+    p=(a+b+c)/2;
+     
+    s=sqrt(p*(p-a)*(p-b)*(p-c));
+    cout << "\n Площадь треугольника = " << s;
+    if (s>15) 
+        cout <<"\nПлощадь больше 15";
+    else
+        cout <<"\nПлощадь меньше 15";
+    return 0;
+}
