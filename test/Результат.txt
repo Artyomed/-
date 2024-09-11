@@ -1,0 +1,7 @@
+res.txt      1   1
+zadane2.1.txt      
+zadanie2.txt      ssvsvvsv
+Результат.txt      res.txt      1   1
+zadane2.1.txt      
+zadanie2.txt      ssvsvvsv
+
